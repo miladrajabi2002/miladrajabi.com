@@ -38,6 +38,26 @@
       </article>
     </section>
 
+
+
+    <section class="glass-panel p-6 md:p-10 reveal">
+      <h2 class="section-title">خلاصه مدیریتی</h2>
+      <p class="hero-lead">من معمولاً با ساختار پروژه‌ای همکاری می‌کنم و از تحلیل تا توسعه، استقرار و پشتیبانی همراه پروژه هستم. در کنار برنامه‌نویسی، هم‌زمان مدیریت چند سرور فعال را انجام می‌دهم و با کمک AI سرعت تحویل را بالا نگه می‌دارم.</p>
+      <p class="hero-lead">مهم‌ترین مزیت من یادگیری سریع و حل مسئله براساس نیاز واقعی کسب‌وکار است؛ یعنی اگر بخشی را ندانم، سریع یاد می‌گیرم و به خروجی قابل اتکا تبدیل می‌کنم.</p>
+    </section>
+
+    <section class="glass-panel p-6 md:p-10 reveal">
+      <h2 class="section-title">توانمندی‌ها</h2>
+      <div class="skills-grid">
+        <div class="skill-row"><label>PHP / Backend</label><i style="--w:92%"></i></div>
+        <div class="skill-row"><label>Linux Server Management</label><i style="--w:87%"></i></div>
+        <div class="skill-row"><label>Automation & Scripting</label><i style="--w:88%"></i></div>
+        <div class="skill-row"><label>HTML / CSS / JavaScript</label><i style="--w:74%"></i></div>
+        <div class="skill-row"><label>Git & Database</label><i style="--w:72%"></i></div>
+        <div class="skill-row"><label>AI Tools Integration</label><i style="--w:96%"></i></div>
+      </div>
+    </section>
+
     <section class="glass-panel p-6 md:p-10 reveal">
       <h2 class="section-title">ویژگی‌های کلیدی</h2>
       <div class="grid md:grid-cols-2 gap-3 text-right">
@@ -51,17 +71,17 @@
     <section class="glass-panel p-6 md:p-10 reveal">
       <h2 class="section-title">نمونه پروژه‌ها</h2>
       <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-4 text-right">
-        <article class="project-card">
+        <article class="project-card project-card-pro">
           <h3>ZarinPay.me</h3>
           <p>درگاه کارت‌به‌کارت با تایید خودکار برای کسب‌وکارهای فاقد اینماد / کد مالیاتی، به‌همراه مدیریت از طریق ربات تلگرام.</p>
           <div class="links"><a href="https://zarinpay.me" target="_blank" rel="noopener">وب‌سایت</a><a href="https://github.com/miladrajabi2002/ZarinPay.me" target="_blank" rel="noopener">مستندات</a></div>
         </article>
-        <article class="project-card">
+        <article class="project-card project-card-pro">
           <h3>UploaderFileBot</h3>
           <p>ربات چندپلتفرمی دانلود محتوا از شبکه‌های مختلف. پروژه فعلاً به‌دلیل هزینه‌های زیرساخت متوقف شده است.</p>
           <div class="links"><a href="https://t.me/UploaderFileBot" target="_blank" rel="noopener">@UploaderFileBot</a><a href="https://t.me/UploaderFilechannel" target="_blank" rel="noopener">کانال</a></div>
         </article>
-        <article class="project-card">
+        <article class="project-card project-card-pro">
           <h3>Yaraghyar.ir</h3>
           <p>پروژه در حال توسعه فروش/ارسال با PHP, HTML, CSS, JS و رویکرد AI-assisted برای افزایش سرعت توسعه.</p>
           <div class="links"><a href="https://yaraghyar.ir" target="_blank" rel="noopener">مشاهده پروژه</a></div>
