@@ -3,83 +3,84 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>رزومه میلاد رجبی | PHP Developer</title>
-  <meta name="description" content="رزومه حرفه‌ای میلاد رجبی - توسعه‌دهنده PHP، مدیر سرور لینوکسی و سازنده استارتاپ" />
+  <title>Milad Rajabi | رزومه اجرایی توسعه‌دهنده PHP</title>
+  <meta name="description" content="رزومه اجرایی میلاد رجبی برای همکاری در سطح ارشد: توسعه‌دهنده PHP، مدیر سرور لینوکس، متخصص اتوماسیون و AI-driven delivery." />
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body class="antialiased">
-  <div id="preloader"><div class="loader"></div></div>
-  <div class="bg-layer"></div><div class="orb orb-a"></div><div class="orb orb-b"></div>
+  <div id="preloader" aria-hidden="true"><div class="loader"></div></div>
+  <div class="noise"></div>
+  <div class="ambient ambient-1"></div>
+  <div class="ambient ambient-2"></div>
 
-  <main class="mx-auto w-[92%] max-w-6xl py-6 md:py-10 space-y-5 md:space-y-7">
-    <section class="glass panel p-5 md:p-10 reveal">
-      <div class="grid lg:grid-cols-2 gap-6 items-center">
-        <div class="space-y-4 text-center lg:text-right">
-          <p class="text-cyan-200 text-sm">رزومه حرفه‌ای برای همکاری با تیم‌های جدی</p>
-          <h1 class="text-4xl md:text-6xl font-black leading-tight">میلاد رجبی</h1>
-          <h2 class="text-xl md:text-2xl text-indigo-100">توسعه‌دهنده PHP، مدیر سرور لینوکسی و سازنده پروژه‌های اینترنتی</h2>
-          <p class="text-slate-300 leading-8">۸ سال تجربه واقعی در توسعه وب، اتوماسیون، مدیریت سرور و اجرای پروژه‌های محصول‌محور. تمرکز اصلی من روی ساخت خروجی قابل اتکا، سریع و کاربردی برای کسب‌وکار است.</p>
-          <div class="flex flex-wrap gap-2 justify-center lg:justify-start text-sm">
-            <span class="chip">PHP</span><span class="chip">Linux</span><span class="chip">Automation</span><span class="chip">AI</span><span class="chip">Git & DB</span>
-          </div>
-          <div class="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start">
-            <a href="#projects" class="btn-main">مشاهده پروژه‌ها</a>
-            <a href="https://github.com/miladrajabi2002" target="_blank" rel="noopener" class="btn-alt">مشاهده GitHub</a>
-          </div>
-        </div>
-        <div class="hero-art mx-auto">
-          <div class="code-box glass"><i class="mdi mdi-code-tags"></i></div>
-          <div class="halo"></div>
-        </div>
+  <main class="resume-shell mx-auto w-[92%] max-w-6xl py-7 md:py-12 space-y-5 md:space-y-7">
+    <section class="glass-xl p-6 md:p-10 reveal">
+      <p class="overline">Executive Candidate Profile</p>
+      <h1 class="hero-title">میلاد رجبی</h1>
+      <p class="hero-subtitle">Senior PHP Developer · Linux Server Operator · AI-Accelerated Builder</p>
+      <p class="hero-lead">۸ سال تجربه حرفه‌ای در برنامه‌نویسی و تحویل پروژه‌های واقعی. تمرکز من روی نتیجه قابل‌اندازه‌گیری، تحویل سریع، و پایداری محصول در اجرا است؛ از توسعه بک‌اند تا عملیات و نگهداری سرور.</p>
+
+      <div class="mt-5 flex flex-wrap gap-2 text-sm">
+        <span class="chip">+8 Years Experience</span>
+        <span class="chip">PHP Specialist</span>
+        <span class="chip">Linux Ops</span>
+        <span class="chip">Automation Scripts</span>
+        <span class="chip">AI-first Workflow</span>
       </div>
     </section>
 
-    <section class="grid sm:grid-cols-2 lg:grid-cols-4 gap-3 reveal">
-      <article class="glass stat"><i class="mdi mdi-calendar-check"></i><b>۸+ سال</b><span>تجربه برنامه‌نویسی</span></article>
-      <article class="glass stat"><i class="mdi mdi-language-php"></i><b>PHP</b><span>تخصص اصلی</span></article>
-      <article class="glass stat"><i class="mdi mdi-server"></i><b>Linux</b><span>پشتیبانی و نگهداری سرور</span></article>
-      <article class="glass stat"><i class="mdi mdi-brain"></i><b>AI-First</b><span>توسعه سریع و گسترده</span></article>
+    <section class="grid md:grid-cols-3 gap-4 reveal">
+      <article class="glass-card kpi"><span>۰۸+</span><p>سال تجربه توسعه نرم‌افزار</p></article>
+      <article class="glass-card kpi"><span>۰۳</span><p>پروژه فعال شخصی/استارتاپی</p></article>
+      <article class="glass-card kpi"><span>۲۴/۷</span><p>مدیریت و پشتیبانی زیرساخت</p></article>
     </section>
 
-    <section class="glass panel p-5 md:p-8 reveal">
-      <h3 class="title">خلاصه حرفه‌ای</h3>
-      <p class="text-slate-300 leading-8">من بیشتر با ساختار پروژه‌ای کار کرده‌ام و از تحلیل، طراحی، پیاده‌سازی، استقرار تا نگهداری درگیر بوده‌ام. در حال حاضر هم‌زمان پشتیبانی چند سرور فعال را انجام می‌دهم و روی چند استارتاپ اینترنتی شخصی نیز کار می‌کنم. قدرت اصلی من در یادگیری سریع و حل مسئله بر اساس نیاز واقعی پروژه است.</p>
-    </section>
-
-    <section class="glass panel p-5 md:p-8 reveal" id="projects">
-      <h3 class="title">پروژه‌های شاخص</h3>
-      <div class="grid md:grid-cols-3 gap-4">
-        <article class="project"><h4>ZarinPay.me</h4><p>درگاه کارت‌به‌کارت با تایید خودکار برای کسب‌وکارهای بدون enmad / مالیاتی، با مدیریت از طریق ربات تلگرام.</p><div class="links"><a href="https://zarinpay.me" target="_blank">سایت</a><a href="https://github.com/miladrajabi2002/ZarinPay.me" target="_blank">داکیومنت</a></div></article>
-        <article class="project"><h4>UploaderFileBot</h4><p>ربات دانلود چندپلتفرمی (اینستاگرام، یوتیوب، تیک‌تاک، اسپاتیفای و...) با مقیاس‌پذیری بالا. فعلاً به دلیل هزینه سرور غیرفعال است.</p><div class="links"><a href="https://t.me/UploaderFileBot" target="_blank">@UploaderFileBot</a><a href="https://t.me/UploaderFilechannel" target="_blank">کانال</a></div></article>
-        <article class="project"><h4>Yaraghyar.ir</h4><p>پروژه فعال فروش و ارسال با PHP/HTML/CSS/JS، توسعه داده‌شده با کمک AI برای تسریع خروجی و توسعه.</p><div class="links"><a href="https://yaraghyar.ir" target="_blank">مشاهده سایت</a></div></article>
-      </div>
-    </section>
-
-    <section class="grid lg:grid-cols-2 gap-4 reveal">
-      <article class="glass panel p-5 md:p-8">
-        <h3 class="title">مهارت‌های کلیدی</h3>
-        <div class="bars space-y-4">
-          <div class="bar"><label>PHP و توسعه Backend</label><i style="--w:90%"></i></div>
-          <div class="bar"><label>مدیریت سرور لینوکسی</label><i style="--w:85%"></i></div>
-          <div class="bar"><label>خودکارسازی و اسکریپت‌نویسی</label><i style="--w:85%"></i></div>
-          <div class="bar"><label>HTML / CSS / JavaScript</label><i style="--w:75%"></i></div>
-          <div class="bar"><label>Git و دیتابیس</label><i style="--w:70%"></i></div>
-          <div class="bar"><label>کار با ابزارهای AI</label><i style="--w:95%"></i></div>
-        </div>
+    <section class="grid lg:grid-cols-5 gap-4 reveal">
+      <article class="glass-xl p-5 md:p-7 lg:col-span-3">
+        <h2 class="section-title">خلاصه مدیریتی</h2>
+        <p class="copy">من عموماً به‌صورت پروژه‌ای با تیم‌های ثابت همکاری داشته‌ام و در تمام مراحل پروژه (تحلیل، طراحی، توسعه، استقرار و نگهداری) حضور عملیاتی داشته‌ام. علاوه‌بر توسعه نرم‌افزار، مسئولیت مدیریت چند سرور فعال را هم‌زمان انجام می‌دهم و برای افزایش سرعت توسعه، از AI به‌عنوان بخشی از فرایند استاندارد کاری استفاده می‌کنم.</p>
+        <p class="copy mt-3">نقطه قوت اصلی من، یادگیری بسیار سریع در مسیر پروژه و تبدیل نیاز کسب‌وکار به راهکار اجرایی است. اگر تکنولوژی یا بخشی را ندانم، به‌سرعت یاد می‌گیرم و به خروجی پایدار تبدیل می‌کنم.</p>
       </article>
-      <article class="glass panel p-5 md:p-8">
-        <h3 class="title">ابزارها و تکنولوژی‌ها</h3>
-        <div class="tools">
-          <span>PHP</span><span>Python</span><span>MySQL</span><span>Linux</span><span>Git</span><span>Docker</span><span>JavaScript</span><span>HTML5</span><span>CSS3</span>
+
+      <article class="glass-xl p-5 md:p-7 lg:col-span-2">
+        <h2 class="section-title">توانمندی‌ها</h2>
+        <div class="skill-stack">
+          <div class="skill"><label>PHP / Backend</label><i style="--w: 92%"></i></div>
+          <div class="skill"><label>Linux Server Management</label><i style="--w: 87%"></i></div>
+          <div class="skill"><label>Automation & Scripting</label><i style="--w: 88%"></i></div>
+          <div class="skill"><label>HTML / CSS / JS</label><i style="--w: 74%"></i></div>
+          <div class="skill"><label>Git & Database</label><i style="--w: 72%"></i></div>
+          <div class="skill"><label>AI Tools Integration</label><i style="--w: 96%"></i></div>
         </div>
       </article>
     </section>
 
-    <section class="glass panel p-6 md:p-10 text-center reveal">
-      <h3 class="text-3xl font-bold mb-3">برای همکاری آماده‌ام</h3>
-      <p class="text-slate-300 leading-8 max-w-3xl mx-auto">اگر دنبال توسعه‌دهنده‌ای هستید که سریع یاد بگیرد، دقیق اجرا کند و هم‌زمان نگاه محصول و زیرساخت داشته باشد، خوشحال می‌شوم برای پروژه شما همکاری کنیم.</p>
-      <a href="mailto:hello@example.com" class="btn-main inline-block mt-5">تماس بگیرید</a>
+    <section class="glass-xl p-5 md:p-8 reveal">
+      <h2 class="section-title">پروژه‌های شاخص و قابل ارائه</h2>
+      <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-4">
+        <article class="project-card">
+          <h3>ZarinPay.me</h3>
+          <p>درگاه کارت‌به‌کارت با تأیید خودکار برای کسب‌وکارهای فاقد اینماد/کد مالیاتی. مدیریت سرویس و فعال‌سازی از طریق ربات تلگرام انجام می‌شود.</p>
+          <div class="links"><a href="https://zarinpay.me" target="_blank" rel="noopener">وب‌سایت</a><a href="https://github.com/miladrajabi2002/ZarinPay.me" target="_blank" rel="noopener">مستندات GitHub</a></div>
+        </article>
+        <article class="project-card">
+          <h3>UploaderFileBot</h3>
+          <p>ربات دانلود چندمنظوره برای اینستاگرام، یوتیوب، تیک‌تاک، اسپاتیفای و سایر پلتفرم‌ها. به‌دلیل هزینه‌های زیرساخت، موقتاً غیرفعال است.</p>
+          <div class="links"><a href="https://t.me/UploaderFileBot" target="_blank" rel="noopener">@UploaderFileBot</a><a href="https://t.me/UploaderFilechannel" target="_blank" rel="noopener">کانال</a></div>
+        </article>
+        <article class="project-card">
+          <h3>Yaraghyar.ir</h3>
+          <p>پروژه جاری فروش/ارسال محصول با PHP, HTML, CSS, JavaScript و توسعه AI-assisted. مشارکت در طراحی ساختار، توسعه و ادامه رشد محصول.</p>
+          <div class="links"><a href="https://yaraghyar.ir" target="_blank" rel="noopener">مشاهده پروژه</a></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="glass-xl p-6 md:p-9 reveal">
+      <h2 class="section-title">جمع‌بندی برای تصمیم استخدام</h2>
+      <p class="copy">من ترکیبی از <strong>توسعه‌دهنده اجرایی</strong> و <strong>اپراتور زیرساخت</strong> هستم؛ یعنی هم زمان توسعه می‌دهم، هم نگهداری و پایداری را می‌شناسم. این ترکیب باعث می‌شود خروجی صرفاً «کد» نباشد، بلکه محصولی قابل اتکا برای کسب‌وکار شما باشد.</p>
+      <p class="copy mt-3">برای بررسی سوابق بیشتر: <a class="inline-link" href="https://github.com/miladrajabi2002" target="_blank" rel="noopener">GitHub Profile</a></p>
     </section>
   </main>
 
