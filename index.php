@@ -5,118 +5,116 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Milad Rajabi | رزومه حرفه‌ای</title>
   <meta name="description" content="رزومه حرفه‌ای میلاد رجبی - توسعه‌دهنده PHP و مدیر سرور لینوکسی" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div id="preloader">
-    <div class="loader-core">
-      <span class="ring ring-1"></span>
-      <span class="ring ring-2"></span>
-      <span class="dot"></span>
-      <p>در حال بارگذاری رزومه...</p>
-    </div>
+  <div id="preloader" aria-hidden="true">
+    <div class="loader"></div>
+    <p>در حال آماده‌سازی تجربه حرفه‌ای شما...</p>
   </div>
 
-  <div class="bg-orb orb-a"></div>
-  <div class="bg-orb orb-b"></div>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-gradient g1" aria-hidden="true"></div>
+  <div class="bg-gradient g2" aria-hidden="true"></div>
 
-  <header class="container hero reveal">
-    <nav class="top-nav glass">
-      <div class="logo">رزومه میلاد رجبی</div>
-      <div class="nav-actions">
-        <a href="#skills">مهارت‌ها</a>
-        <a href="#projects">پروژه‌ها</a>
-        <a class="btn" href="#contact">همکاری</a>
-      </div>
+  <header class="topbar container reveal">
+    <a class="brand" href="#hero"><i class="mdi mdi-hexagon-multiple"></i><span>Milad Rajabi</span></a>
+    <nav>
+      <a href="#skills">مهارت‌ها</a>
+      <a href="#experience">سوابق</a>
+      <a href="#projects">پروژه‌ها</a>
+      <a href="#contact">ارتباط</a>
     </nav>
-
-    <section class="hero-card glass">
-      <p class="kicker">PHP Developer • Linux Server Manager • Product Builder</p>
-      <h1>میلاد رجبی</h1>
-      <h2>توسعه‌دهنده PHP، مدیر سرور لینوکسی و سازنده پروژه‌های اینترنتی</h2>
-      <p>
-        توسعه‌دهنده نرم‌افزار با بیش از ۸ سال تجربه عملی در توسعه سیستم‌های تحت وب،
-        خودکارسازی فرآیندها و مدیریت زیرساخت. تمرکز اصلی من روی PHP است و در کنار آن
-        با HTML، CSS، JavaScript، Python، دیتابیس، Git و مدیریت سرورهای لینوکسی کار کرده‌ام.
-      </p>
-      <div class="quick-stats">
-        <article><strong>۸+</strong><span>سال تجربه</span></article>
-        <article><strong>PHP</strong><span>تخصص اصلی</span></article>
-        <article><strong>Linux</strong><span>مدیریت سرور</span></article>
-        <article><strong>AI</strong><span>توسعه سریع‌تر</span></article>
-      </div>
-    </section>
+    <a class="btn-primary" href="https://github.com/miladrajabi2002" target="_blank" rel="noopener">GitHub</a>
   </header>
 
-  <main class="container">
-    <section class="reveal section">
-      <div class="panel glass">
-        <h3>خلاصه مدیریتی</h3>
-        <p>من صرفاً یک برنامه‌نویس کدنویس نیستم؛ تجربه من ترکیبی از توسعه محصول، راه‌اندازی پروژه، نگهداری زیرساخت، حل مسائل واقعی کسب‌وکار و اجرای مستقل ایده‌هاست.</p>
-        <p>در پروژه‌ها از تحلیل نیاز، طراحی ساختار، پیاده‌سازی، تست، استقرار و نگهداری پس از اجرا حضور فعال داشته‌ام؛ همین باعث شده خروجی‌ها سریع‌تر، کم‌هزینه‌تر و کاربردی‌تر باشند.</p>
+  <main class="container" id="hero">
+    <section class="hero card reveal">
+      <div class="hero-content">
+        <p class="eyebrow"><i class="mdi mdi-star-four-points-circle"></i> رزومه حرفه‌ای توسعه‌دهنده فول‌استک</p>
+        <h1>میلاد رجبی</h1>
+        <h2>توسعه‌دهنده PHP و مدیر سرور لینوکسی با رویکرد محصول‌محور</h2>
+        <p class="lead">با بیش از ۸ سال تجربه در توسعه وب، ساخت سرویس‌های واقعی و مدیریت زیرساخت، روی خروجی قابل اعتماد، توسعه سریع و تجربه کاربری قوی تمرکز دارم.</p>
+        <div class="hero-actions">
+          <a class="btn-primary" href="#projects"><i class="mdi mdi-rocket-launch-outline"></i> مشاهده پروژه‌ها</a>
+          <a class="btn-secondary" href="#contact"><i class="mdi mdi-handshake-outline"></i> شروع همکاری</a>
+        </div>
+      </div>
+      <div class="hero-stats">
+        <article><i class="mdi mdi-timer-outline"></i><strong>۸+ سال</strong><span>تجربه عملی</span></article>
+        <article><i class="mdi mdi-language-php"></i><strong>PHP Expert</strong><span>توسعه Backend</span></article>
+        <article><i class="mdi mdi-server-network"></i><strong>Linux Ops</strong><span>مدیریت سرور</span></article>
+        <article><i class="mdi mdi-brain"></i><strong>AI Driven</strong><span>افزایش سرعت تولید</span></article>
       </div>
     </section>
 
-    <section id="skills" class="reveal section">
-      <h3>مهارت‌های کلیدی</h3>
+    <section id="skills" class="section reveal">
+      <div class="section-title">
+        <h3>مهارت‌های کلیدی</h3>
+        <p>ترکیب دانش فنی، معماری و تحویل محصول نهایی</p>
+      </div>
       <div class="skills-grid">
-        <div class="skill-card glass"><span>PHP و Backend</span><div class="meter"><i style="--w:90%"></i></div><b>۹۰٪</b></div>
-        <div class="skill-card glass"><span>مدیریت سرور لینوکسی</span><div class="meter"><i style="--w:85%"></i></div><b>۸۵٪</b></div>
-        <div class="skill-card glass"><span>خودکارسازی و اسکریپت‌نویسی</span><div class="meter"><i style="--w:85%"></i></div><b>۸۵٪</b></div>
-        <div class="skill-card glass"><span>HTML / CSS / JavaScript</span><div class="meter"><i style="--w:75%"></i></div><b>۷۵٪</b></div>
-        <div class="skill-card glass"><span>Git و دیتابیس</span><div class="meter"><i style="--w:70%"></i></div><b>۷۰٪</b></div>
-        <div class="skill-card glass"><span>ابزارهای AI</span><div class="meter"><i style="--w:95%"></i></div><b>۹۵٪</b></div>
+        <article class="skill card"><div class="skill-head"><i class="mdi mdi-language-php"></i><span>PHP و توسعه بک‌اند</span></div><div class="progress"><i style="--w:92%"></i></div><b>۹۲٪</b></article>
+        <article class="skill card"><div class="skill-head"><i class="mdi mdi-server"></i><span>مدیریت لینوکس و سرور</span></div><div class="progress"><i style="--w:88%"></i></div><b>۸۸٪</b></article>
+        <article class="skill card"><div class="skill-head"><i class="mdi mdi-robot-outline"></i><span>اتوماسیون و اسکریپت‌نویسی</span></div><div class="progress"><i style="--w:86%"></i></div><b>۸۶٪</b></article>
+        <article class="skill card"><div class="skill-head"><i class="mdi mdi-palette-outline"></i><span>UI با HTML/CSS/JS</span></div><div class="progress"><i style="--w:80%"></i></div><b>۸۰٪</b></article>
+        <article class="skill card"><div class="skill-head"><i class="mdi mdi-database-cog-outline"></i><span>Git و دیتابیس</span></div><div class="progress"><i style="--w:78%"></i></div><b>۷۸٪</b></article>
+        <article class="skill card"><div class="skill-head"><i class="mdi mdi-auto-fix"></i><span>ابزارهای هوش مصنوعی</span></div><div class="progress"><i style="--w:96%"></i></div><b>۹۶٪</b></article>
       </div>
     </section>
 
-    <section class="reveal section">
-      <h3>تجربه کاری و اجرایی</h3>
+    <section id="experience" class="section reveal">
+      <div class="section-title">
+        <h3>تجربه کاری</h3>
+        <p>از تحلیل نیازمندی تا استقرار و نگهداری</p>
+      </div>
       <div class="timeline">
-        <article class="timeline-item glass"><h4>توسعه‌دهنده نرم‌افزار و وب</h4><p>بیش از ۸ سال تجربه در توسعه پروژه‌های تحت وب با تمرکز اصلی روی PHP.</p></article>
-        <article class="timeline-item glass"><h4>مدیریت و نگهداری سرور</h4><p>پشتیبانی چندین سرور لینوکسی فعال: راه‌اندازی، نگهداری، رفع خطا و پایدارسازی.</p></article>
-        <article class="timeline-item glass"><h4>همکاری پروژه‌ای بلندمدت</h4><p>تسلط به فرآیند مدیریت پروژه، اجرای مرحله‌ای، تحویل و نگهداری.</p></article>
+        <article class="card timeline-item"><i class="mdi mdi-web"></i><div><h4>توسعه‌دهنده نرم‌افزار و وب</h4><p>طراحی و پیاده‌سازی سیستم‌های تحت وب با تمرکز بر کارایی، مقیاس‌پذیری و امنیت.</p></div></article>
+        <article class="card timeline-item"><i class="mdi mdi-shield-check-outline"></i><div><h4>مدیریت و نگهداری سرور</h4><p>مانیتورینگ، رفع اختلال، امن‌سازی و بهینه‌سازی چندین سرور لینوکسی عملیاتی.</p></div></article>
+        <article class="card timeline-item"><i class="mdi mdi-account-group-outline"></i><div><h4>همکاری پروژه‌ای بلندمدت</h4><p>همکاری منظم با تیم‌ها برای تحویل مرحله‌ای، توسعه پایدار و بهبود مستمر محصول.</p></div></article>
       </div>
     </section>
 
-    <section id="projects" class="reveal section">
-      <h3>پروژه‌های شاخص</h3>
+    <section id="projects" class="section reveal">
+      <div class="section-title">
+        <h3>پروژه‌های شاخص</h3>
+        <p>نمونه‌هایی از خروجی‌های واقعی در بازار</p>
+      </div>
       <div class="project-grid">
-        <article class="project glass">
-          <h4>ZarinPay.me</h4>
-          <p>سیستم درگاه کارت‌به‌کارت با تایید خودکار پرداخت و مدیریت از طریق ربات تلگرام.</p>
-          <div class="links"><a href="https://zarinpay.me" target="_blank" rel="noopener">سایت</a><a href="https://github.com/miladrajabi2002/ZarinPay.me" target="_blank" rel="noopener">مستندات</a></div>
+        <article class="card project">
+          <h4><i class="mdi mdi-credit-card-fast-outline"></i> ZarinPay.me</h4>
+          <p>سیستم کارت‌به‌کارت با تایید خودکار تراکنش و پنل مدیریت یکپارچه با ربات تلگرام.</p>
+          <div class="chips"><span>PHP</span><span>Automation</span><span>Telegram Bot</span></div>
+          <div class="links"><a href="https://zarinpay.me" target="_blank" rel="noopener">وب‌سایت</a><a href="https://github.com/miladrajabi2002/ZarinPay.me" target="_blank" rel="noopener">GitHub</a></div>
         </article>
-        <article class="project glass">
-          <h4>ربات دانلود چندپلتفرمی</h4>
-          <p>دانلود از اینستاگرام، یوتیوب، توییتر، تیک‌تاک، اسپاتیفای، پینترست، آپارات، گوگل‌درایو و...</p>
-          <div class="links"><a href="https://t.me/UploaderFileBot" target="_blank" rel="noopener">@UploaderFileBot</a><a href="https://t.me/UploaderFilechannel" target="_blank" rel="noopener">@UploaderFilechannel</a></div>
+        <article class="card project">
+          <h4><i class="mdi mdi-cloud-download-outline"></i> ربات دانلود چندپلتفرمی</h4>
+          <p>دانلودر هوشمند برای شبکه‌های اجتماعی و سرویس‌های ویدیویی با سرعت بالا و پایداری مناسب.</p>
+          <div class="chips"><span>Bot</span><span>API</span><span>Scalable</span></div>
+          <div class="links"><a href="https://t.me/UploaderFileBot" target="_blank" rel="noopener">@UploaderFileBot</a><a href="https://t.me/UploaderFilechannel" target="_blank" rel="noopener">کانال</a></div>
         </article>
-        <article class="project glass">
-          <h4>Yaraghyar.ir</h4>
-          <p>پروژه فعال حوزه فروش و ارسال، توسعه‌یافته با PHP/HTML/CSS/JS و توسعه فنی توسط من.</p>
-          <div class="links"><a href="https://yaraghyar.ir" target="_blank" rel="noopener">سایت</a></div>
+        <article class="card project">
+          <h4><i class="mdi mdi-storefront-outline"></i> Yaraghyar.ir</h4>
+          <p>توسعه فنی کامل در حوزه فروش و ارسال: طراحی، پیاده‌سازی و بهینه‌سازی فرآیندها.</p>
+          <div class="chips"><span>E-commerce</span><span>PHP</span><span>Frontend</span></div>
+          <div class="links"><a href="https://yaraghyar.ir" target="_blank" rel="noopener">مشاهده سایت</a></div>
         </article>
       </div>
     </section>
 
-    <section id="contact" class="reveal section">
-      <div class="panel glass cta">
-        <h3>ارزش پیشنهادی برای سازمان</h3>
-        <ul>
-          <li>کاهش هزینه توسعه</li>
-          <li>اجرای سریع‌تر پروژه</li>
-          <li>نگهداری پایدار سرویس</li>
-          <li>حل مسئله در شرایط واقعی</li>
-        </ul>
-        <a class="btn" href="https://github.com/miladrajabi2002" target="_blank" rel="noopener">مشاهده GitHub</a>
+    <section id="contact" class="section reveal">
+      <div class="cta card">
+        <h3>آماده همکاری برای ساخت محصول بعدی شما</h3>
+        <p>اگر به توسعه‌دهنده‌ای نیاز دارید که از کدنویسی تا پایداری زیرساخت کنار تیم باشد، خوشحال می‌شوم همکاری کنیم.</p>
+        <div class="hero-actions">
+          <a class="btn-primary" href="https://github.com/miladrajabi2002" target="_blank" rel="noopener"><i class="mdi mdi-github"></i> پروفایل GitHub</a>
+          <a class="btn-secondary" href="mailto:hello@example.com"><i class="mdi mdi-email-outline"></i> ارسال ایمیل</a>
+        </div>
       </div>
     </section>
   </main>
 
-  <footer class="container reveal footer">طراحی شده برای ارائه حرفه‌ای رزومه و معرفی توانمندی‌های فنی میلاد رجبی — طراحی شده با AI</footer>
+  <footer class="footer container reveal">© 2026 Milad Rajabi — Crafted with Material Design principles.</footer>
 
   <script src="script.js"></script>
 </body>
