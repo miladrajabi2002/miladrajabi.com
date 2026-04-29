@@ -10,98 +10,60 @@
 </head>
 <body class="antialiased">
   <div id="preloader" aria-hidden="true"><div class="loader"></div></div>
+  <div class="bg-base"></div>
 
-  <div class="bg-grid"></div>
-  <div class="noise"></div>
-  <div class="ambient ambient-1"></div>
-  <div class="ambient ambient-2"></div>
-  <div class="ambient ambient-3"></div>
-
-  <main class="resume-shell mx-auto w-[92%] max-w-6xl py-7 md:py-12 space-y-5 md:space-y-7">
-    <section class="glass-xl p-6 md:p-10 reveal">
-      <p class="overline">Executive Candidate Profile</p>
+  <main class="resume-shell mx-auto w-[92%] max-w-5xl py-8 md:py-14 space-y-5 md:space-y-8 text-center">
+    <section class="glass-panel p-6 md:p-11 reveal">
+      <p class="overline">Senior Candidate Profile</p>
       <h1 class="hero-title">میلاد رجبی</h1>
-      <p class="hero-subtitle">Senior PHP Developer · Linux Server Operator · AI-Accelerated Builder</p>
-      <p class="hero-lead">۸ سال تجربه حرفه‌ای در برنامه‌نویسی و تحویل پروژه‌های واقعی. تمرکز من روی نتیجه قابل‌اندازه‌گیری، تحویل سریع، و پایداری محصول در اجرا است؛ از توسعه بک‌اند تا عملیات و نگهداری سرور.</p>
-
-      <div class="mt-5 flex flex-wrap gap-2 text-sm">
-        <span class="chip">+8 Years Experience</span>
-        <span class="chip">PHP Specialist</span>
-        <span class="chip">Linux Ops</span>
-        <span class="chip">Automation Scripts</span>
-        <span class="chip">AI-first Workflow</span>
+      <p class="hero-subtitle">PHP Developer · Linux Server Admin · AI-Driven Builder</p>
+      <p class="hero-lead">۸ سال تجربه برنامه‌نویسی و اجرای پروژه واقعی دارم. تخصص اصلی من PHP است و در کنار آن مدیریت سرور لینوکس، اتوماسیون، و تحویل سریع پروژه با کمک AI را انجام می‌دهم.</p>
+      <div class="chips">
+        <span>+8 Years Experience</span><span>PHP Specialist</span><span>Linux Operations</span><span>Automation Scripts</span><span>AI-first Delivery</span>
       </div>
     </section>
 
     <section class="grid md:grid-cols-3 gap-4 reveal">
-      <article class="glass-card kpi kpi-blue">
-        <div class="kpi-head"><i class="mdi mdi-timeline-check"></i><small>Experience</small></div>
-        <span>۰۸+</span>
-        <p>سال تجربه توسعه نرم‌افزار</p>
+      <article class="feature-card">
+        <h3>۰۸+ سال</h3>
+        <p>تجربه عملی توسعه نرم‌افزار</p>
       </article>
-      <article class="glass-card kpi kpi-violet featured-kpi">
-        <div class="kpi-head"><i class="mdi mdi-rocket-launch"></i><small>Founder Projects</small></div>
-        <span>03</span>
+      <article class="feature-card highlight">
+        <h3>03 پروژه</h3>
         <p>پروژه فعال شخصی / استارتاپی</p>
       </article>
-      <article class="glass-card kpi kpi-cyan">
-        <div class="kpi-head"><i class="mdi mdi-server-network"></i><small>Operations</small></div>
-        <span>۲۴/۷</span>
-        <p>مدیریت و پشتیبانی زیرساخت</p>
+      <article class="feature-card">
+        <h3>۲۴/۷</h3>
+        <p>پشتیبانی و نگهداری سرور</p>
       </article>
     </section>
 
-    <section class="grid lg:grid-cols-5 gap-4 reveal">
-      <article class="glass-xl p-5 md:p-7 lg:col-span-3">
-        <h2 class="section-title">خلاصه مدیریتی</h2>
-        <p class="copy">من عموماً به‌صورت پروژه‌ای با تیم‌های ثابت همکاری داشته‌ام و در تمام مراحل پروژه (تحلیل، طراحی، توسعه، استقرار و نگهداری) حضور عملیاتی داشته‌ام. علاوه‌بر توسعه نرم‌افزار، مسئولیت مدیریت چند سرور فعال را هم‌زمان انجام می‌دهم و برای افزایش سرعت توسعه، از AI به‌عنوان بخشی از فرایند استاندارد کاری استفاده می‌کنم.</p>
-        <p class="copy mt-3">نقطه قوت اصلی من، یادگیری بسیار سریع در مسیر پروژه و تبدیل نیاز کسب‌وکار به راهکار اجرایی است. اگر تکنولوژی یا بخشی را ندانم، به‌سرعت یاد می‌گیرم و به خروجی پایدار تبدیل می‌کنم.</p>
-      </article>
-
-      <article class="glass-xl p-5 md:p-7 lg:col-span-2">
-        <h2 class="section-title">توانمندی‌ها</h2>
-        <div class="skill-stack">
-          <div class="skill"><label>PHP / Backend</label><i style="--w: 92%"></i></div>
-          <div class="skill"><label>Linux Server Management</label><i style="--w: 87%"></i></div>
-          <div class="skill"><label>Automation & Scripting</label><i style="--w: 88%"></i></div>
-          <div class="skill"><label>HTML / CSS / JS</label><i style="--w: 74%"></i></div>
-          <div class="skill"><label>Git & Database</label><i style="--w: 72%"></i></div>
-          <div class="skill"><label>AI Tools Integration</label><i style="--w: 96%"></i></div>
-        </div>
-      </article>
-    </section>
-
-    <section class="glass-xl p-5 md:p-8 reveal">
-      <h2 class="section-title">زبان‌ها و ابزارها</h2>
-      <div class="tech-grid">
-        <span><i class="mdi mdi-language-php"></i>PHP</span>
-        <span><i class="mdi mdi-language-python"></i>Python</span>
-        <span><i class="mdi mdi-language-javascript"></i>JavaScript</span>
-        <span><i class="mdi mdi-language-html5"></i>HTML5</span>
-        <span><i class="mdi mdi-language-css3"></i>CSS3</span>
-        <span><i class="mdi mdi-git"></i>Git</span>
-        <span><i class="mdi mdi-database"></i>MySQL/DB</span>
-        <span><i class="mdi mdi-linux"></i>Linux</span>
-        <span><i class="mdi mdi-docker"></i>Docker</span>
+    <section class="glass-panel p-6 md:p-10 reveal">
+      <h2 class="section-title">ویژگی‌های کلیدی</h2>
+      <div class="grid md:grid-cols-2 gap-3 text-right">
+        <article class="info-card"><h4>توسعه Backend با PHP</h4><p>طراحی و پیاده‌سازی سرویس‌های کاربردی و قابل نگهداری برای کسب‌وکار.</p></article>
+        <article class="info-card"><h4>مدیریت سرور لینوکسی</h4><p>راه‌اندازی، مانیتورینگ، نگهداری و رفع مشکل سرویس‌های فعال.</p></article>
+        <article class="info-card"><h4>اتوماسیون و اسکریپت‌نویسی</h4><p>ساخت اسکریپت برای کاهش هزینه زمانی و افزایش سرعت عملیات.</p></article>
+        <article class="info-card"><h4>تحویل سریع با AI</h4><p>استفاده هدفمند از AI برای توسعه سریع‌تر، تست و گسترش قابلیت‌ها.</p></article>
       </div>
     </section>
 
-    <section class="glass-xl p-5 md:p-8 reveal">
-      <h2 class="section-title">پروژه‌های شاخص و قابل ارائه</h2>
-      <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-4">
+    <section class="glass-panel p-6 md:p-10 reveal">
+      <h2 class="section-title">نمونه پروژه‌ها</h2>
+      <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-4 text-right">
         <article class="project-card">
           <h3>ZarinPay.me</h3>
-          <p>درگاه کارت‌به‌کارت با تأیید خودکار برای کسب‌وکارهای فاقد اینماد/کد مالیاتی. مدیریت سرویس و فعال‌سازی از طریق ربات تلگرام انجام می‌شود.</p>
-          <div class="links"><a href="https://zarinpay.me" target="_blank" rel="noopener">وب‌سایت</a><a href="https://github.com/miladrajabi2002/ZarinPay.me" target="_blank" rel="noopener">مستندات GitHub</a></div>
+          <p>درگاه کارت‌به‌کارت با تایید خودکار برای کسب‌وکارهای فاقد اینماد / کد مالیاتی، به‌همراه مدیریت از طریق ربات تلگرام.</p>
+          <div class="links"><a href="https://zarinpay.me" target="_blank" rel="noopener">وب‌سایت</a><a href="https://github.com/miladrajabi2002/ZarinPay.me" target="_blank" rel="noopener">مستندات</a></div>
         </article>
         <article class="project-card">
           <h3>UploaderFileBot</h3>
-          <p>ربات دانلود چندمنظوره برای اینستاگرام، یوتیوب، تیک‌تاک، اسپاتیفای و سایر پلتفرم‌ها. به‌دلیل هزینه‌های زیرساخت، موقتاً غیرفعال است.</p>
+          <p>ربات چندپلتفرمی دانلود محتوا از شبکه‌های مختلف. پروژه فعلاً به‌دلیل هزینه‌های زیرساخت متوقف شده است.</p>
           <div class="links"><a href="https://t.me/UploaderFileBot" target="_blank" rel="noopener">@UploaderFileBot</a><a href="https://t.me/UploaderFilechannel" target="_blank" rel="noopener">کانال</a></div>
         </article>
         <article class="project-card">
           <h3>Yaraghyar.ir</h3>
-          <p>پروژه جاری فروش/ارسال محصول با PHP, HTML, CSS, JavaScript و توسعه AI-assisted. مشارکت در طراحی ساختار، توسعه و ادامه رشد محصول.</p>
+          <p>پروژه در حال توسعه فروش/ارسال با PHP, HTML, CSS, JS و رویکرد AI-assisted برای افزایش سرعت توسعه.</p>
           <div class="links"><a href="https://yaraghyar.ir" target="_blank" rel="noopener">مشاهده پروژه</a></div>
         </article>
       </div>
