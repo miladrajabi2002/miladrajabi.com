@@ -1,14 +1,21 @@
-const reveals = document.querySelectorAll('.reveal');
-const io = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) entry.target.classList.add('show');
+const items = document.querySelectorAll('.reveal');
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('show');
+      observer.unobserve(entry.target);
+    }
   });
-}, { threshold: .16 });
-reveals.forEach(el => io.observe(el));
+}, { threshold: 0.18 });
+
+items.forEach((el) => observer.observe(el));
 
 window.addEventListener('load', () => {
-  document.body.animate([
-    { opacity: 0, filter: 'blur(8px)' },
-    { opacity: 1, filter: 'blur(0)' }
-  ], { duration: 750, easing: 'ease-out' });
+  document.body.animate(
+    [
+      { opacity: 0, transform: 'translateY(6px)', filter: 'blur(5px)' },
+      { opacity: 1, transform: 'translateY(0)', filter: 'blur(0)' }
+    ],
+    { duration: 850, easing: 'cubic-bezier(.2,.7,.2,1)' }
+  );
 });
