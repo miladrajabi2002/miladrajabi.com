@@ -18,6 +18,8 @@ window.addEventListener('scroll', () => {
   const offset = window.scrollY * 0.05;
   const a1 = document.querySelector('.ambient-1');
   const a2 = document.querySelector('.ambient-2');
+  const a3 = document.querySelector('.ambient-3');
   if (a1) a1.style.transform = `translate3d(0, ${offset}px, 0)`;
   if (a2) a2.style.transform = `translate3d(0, ${-offset}px, 0)`;
+  if (a3) a3.style.transform = `translate3d(${offset * 0.35}px, ${-offset * 0.4}px, 0)`;
 }, { passive: true });

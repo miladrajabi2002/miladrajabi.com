@@ -10,9 +10,12 @@
 </head>
 <body class="antialiased">
   <div id="preloader" aria-hidden="true"><div class="loader"></div></div>
+
+  <div class="bg-grid"></div>
   <div class="noise"></div>
   <div class="ambient ambient-1"></div>
   <div class="ambient ambient-2"></div>
+  <div class="ambient ambient-3"></div>
 
   <main class="resume-shell mx-auto w-[92%] max-w-6xl py-7 md:py-12 space-y-5 md:space-y-7">
     <section class="glass-xl p-6 md:p-10 reveal">
@@ -31,9 +34,21 @@
     </section>
 
     <section class="grid md:grid-cols-3 gap-4 reveal">
-      <article class="glass-card kpi"><span>۰۸+</span><p>سال تجربه توسعه نرم‌افزار</p></article>
-      <article class="glass-card kpi"><span>۰۳</span><p>پروژه فعال شخصی/استارتاپی</p></article>
-      <article class="glass-card kpi"><span>۲۴/۷</span><p>مدیریت و پشتیبانی زیرساخت</p></article>
+      <article class="glass-card kpi kpi-blue">
+        <div class="kpi-head"><i class="mdi mdi-timeline-check"></i><small>Experience</small></div>
+        <span>۰۸+</span>
+        <p>سال تجربه توسعه نرم‌افزار</p>
+      </article>
+      <article class="glass-card kpi kpi-violet featured-kpi">
+        <div class="kpi-head"><i class="mdi mdi-rocket-launch"></i><small>Founder Projects</small></div>
+        <span>03</span>
+        <p>پروژه فعال شخصی / استارتاپی</p>
+      </article>
+      <article class="glass-card kpi kpi-cyan">
+        <div class="kpi-head"><i class="mdi mdi-server-network"></i><small>Operations</small></div>
+        <span>۲۴/۷</span>
+        <p>مدیریت و پشتیبانی زیرساخت</p>
+      </article>
     </section>
 
     <section class="grid lg:grid-cols-5 gap-4 reveal">
@@ -57,6 +72,21 @@
     </section>
 
     <section class="glass-xl p-5 md:p-8 reveal">
+      <h2 class="section-title">زبان‌ها و ابزارها</h2>
+      <div class="tech-grid">
+        <span><i class="mdi mdi-language-php"></i>PHP</span>
+        <span><i class="mdi mdi-language-python"></i>Python</span>
+        <span><i class="mdi mdi-language-javascript"></i>JavaScript</span>
+        <span><i class="mdi mdi-language-html5"></i>HTML5</span>
+        <span><i class="mdi mdi-language-css3"></i>CSS3</span>
+        <span><i class="mdi mdi-git"></i>Git</span>
+        <span><i class="mdi mdi-database"></i>MySQL/DB</span>
+        <span><i class="mdi mdi-linux"></i>Linux</span>
+        <span><i class="mdi mdi-docker"></i>Docker</span>
+      </div>
+    </section>
+
+    <section class="glass-xl p-5 md:p-8 reveal">
       <h2 class="section-title">پروژه‌های شاخص و قابل ارائه</h2>
       <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-4">
         <article class="project-card">
@@ -75,12 +105,6 @@
           <div class="links"><a href="https://yaraghyar.ir" target="_blank" rel="noopener">مشاهده پروژه</a></div>
         </article>
       </div>
-    </section>
-
-    <section class="glass-xl p-6 md:p-9 reveal">
-      <h2 class="section-title">جمع‌بندی برای تصمیم استخدام</h2>
-      <p class="copy">من ترکیبی از <strong>توسعه‌دهنده اجرایی</strong> و <strong>اپراتور زیرساخت</strong> هستم؛ یعنی هم زمان توسعه می‌دهم، هم نگهداری و پایداری را می‌شناسم. این ترکیب باعث می‌شود خروجی صرفاً «کد» نباشد، بلکه محصولی قابل اتکا برای کسب‌وکار شما باشد.</p>
-      <p class="copy mt-3">برای بررسی سوابق بیشتر: <a class="inline-link" href="https://github.com/miladrajabi2002" target="_blank" rel="noopener">GitHub Profile</a></p>
     </section>
   </main>
 
