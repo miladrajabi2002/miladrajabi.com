@@ -1,5 +1,8 @@
 const preloader = document.getElementById('preloader');
-window.addEventListener('load', () => setTimeout(() => preloader.classList.add('hide'), 700));
+
+window.addEventListener('load', () => {
+  setTimeout(() => preloader.classList.add('hide'), 600);
+});
 
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
@@ -7,12 +10,12 @@ const observer = new IntersectionObserver((entries) => {
     entry.target.classList.add('show');
     observer.unobserve(entry.target);
   });
-}, { threshold: 0.16 });
+}, { threshold: 0.15 });
 
-document.querySelectorAll('.reveal').forEach((element) => observer.observe(element));
+document.querySelectorAll('.reveal').forEach((item) => observer.observe(item));
 
 window.addEventListener('scroll', () => {
-  const val = window.scrollY * .05;
-  document.querySelector('.g1').style.transform = `translateY(${val}px)`;
-  document.querySelector('.g2').style.transform = `translateY(${-val}px)`;
+  const y = window.scrollY * 0.05;
+  document.querySelector('.orb-a').style.transform = `translateY(${y}px)`;
+  document.querySelector('.orb-b').style.transform = `translateY(${-y}px)`;
 }, { passive: true });
