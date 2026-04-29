@@ -1,7 +1,8 @@
 const preloader = document.getElementById('preloader');
 
 window.addEventListener('load', () => {
-  setTimeout(() => preloader.classList.add('hide'), 500);
+  document.body.classList.add('is-ready');
+  setTimeout(() => preloader.classList.add('hide'), 450);
 });
 
 const observer = new IntersectionObserver((entries) => {
@@ -11,7 +12,7 @@ const observer = new IntersectionObserver((entries) => {
       observer.unobserve(entry.target);
     }
   });
-}, { threshold: 0.12 });
+}, { threshold: 0.14 });
 
 document.querySelectorAll('.reveal').forEach((el) => observer.observe(el));
 
