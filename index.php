@@ -4,64 +4,65 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Milad Rajabi | رزومه حرفه‌ای</title>
-  <meta name="description" content="رزومه حرفه‌ای میلاد رجبی - توسعه‌دهنده PHP و مدیر سرور لینوکسی" />
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div id="preloader" aria-hidden="true"><div class="loader"></div><p>در حال بارگذاری نسخه حرفه‌ای رزومه...</p></div>
-  <div class="ambient ambient-a" aria-hidden="true"></div><div class="ambient ambient-b" aria-hidden="true"></div><div class="stars" aria-hidden="true"></div>
+<div id="preloader"><div class="loader"></div></div>
+<div class="noise"></div><div class="glow g1"></div><div class="glow g2"></div>
+<main class="container">
+  <section class="hero reveal glass">
+    <article class="hero-card glass-in">
+      <h1>میلاد رجبی</h1>
+      <h2>توسعه‌دهنده PHP، مدیر سرور لینوکسی<br>و سازنده پروژه‌های اینترنتی</h2>
+      <p>توسعه‌دهنده نرم‌افزار با بیش از ۸ سال تجربه عملی در برنامه‌نویسی، توسعه سیستم‌های تحت وب، خودکارسازی فرآیندها و مدیریت زیرساخت.</p>
+      <div class="chips"><span>PHP</span><span>Linux</span><span>AI</span><span>Automation</span><span>Backend</span></div>
+      <a class="btn" href="#projects">مشاهده پروژه‌ها</a>
+    </article>
+    <article class="hero-visual">
+      <div class="code-panel glass-in"><i class="mdi mdi-code-tags"></i></div>
+      <div class="platform"></div>
+    </article>
+  </section>
 
-  <main class="container">
-    <section class="hero glass reveal" id="hero">
-      <div class="hero-text">
-        <p class="eyebrow"><i class="mdi mdi-star-four-points-circle"></i> Full-Stack Product Developer</p>
-        <h1>میلاد رجبی</h1>
-        <h2>توسعه‌دهنده PHP، مدیر سرور لینوکسی و سازنده پروژه‌های اینترنتی</h2>
-        <p class="lead">من با ترکیب توسعه فنی، زیرساخت پایدار و تجربه محصول، سرویس‌هایی می‌سازم که هم سریع تحویل شوند، هم قابل اتکا بمانند.</p>
-        <div class="tags"><span>PHP</span><span>Linux</span><span>Automation</span><span>AI</span><span>Backend</span></div>
-        <div class="actions"><a class="btn-primary" href="#projects"><i class="mdi mdi-rocket-launch-outline"></i> مشاهده پروژه‌ها</a><a class="btn-secondary" href="#contact"><i class="mdi mdi-email-outline"></i> همکاری</a></div>
-      </div>
-      <div class="hero-art">
-        <div class="code-card"><i class="mdi mdi-code-tags"></i></div>
-        <div class="ring"></div>
-      </div>
-      <a class="scroll-cue" href="#quick"><span>اسکرول</span><i class="mdi mdi-chevron-down"></i></a>
-    </section>
+  <section class="title reveal"><h3>آمار سریع <i class="mdi mdi-lightning-bolt"></i></h3></section>
+  <section class="stats reveal">
+    <article class="glass"><i class="mdi mdi-calendar-check"></i><b>A+</b><span>سال تجربه برنامه‌نویسی</span></article>
+    <article class="glass"><i class="mdi mdi-code-tags"></i><b>PHP</b><span>تخصص اصلی</span></article>
+    <article class="glass"><i class="mdi mdi-server"></i><b>Linux</b><span>مدیریت و نگهداری سرور</span></article>
+    <article class="glass"><i class="mdi mdi-brain"></i><b>AI</b><span>استفاده حرفه‌ای از هوش مصنوعی</span></article>
+  </section>
 
-    <section id="quick" class="quick-grid reveal">
-      <article class="glass stat"><i class="mdi mdi-timer-outline"></i><strong>۸+ سال</strong><span>تجربه برنامه‌نویسی</span></article>
-      <article class="glass stat"><i class="mdi mdi-language-php"></i><strong>PHP</strong><span>تخصص اصلی</span></article>
-      <article class="glass stat"><i class="mdi mdi-server-network"></i><strong>Linux</strong><span>مدیریت و نگهداری</span></article>
-      <article class="glass stat"><i class="mdi mdi-brain"></i><strong>AI</strong><span>افزایش سرعت توسعه</span></article>
-    </section>
+  <section class="title reveal"><h3>خلاصه مدیریتی <i class="mdi mdi-account-group"></i></h3></section>
+  <section class="glass summary reveal">
+    <article><i class="mdi mdi-rocket-launch"></i><p>این تجربه باعث می‌شود پروژه‌ها را سریع‌تر، بهینه‌تر و کاربرپسندتر جلو ببرم.</p></article>
+    <article><i class="mdi mdi-target"></i><p>در پروژه‌ها از تحلیل نیاز، طراحی ساختار، پیاده‌سازی و نگهداری حضور داشته‌ام.</p></article>
+    <article><i class="mdi mdi-puzzle"></i><p>من صرفاً کدنویس نیستم؛ ترکیبی از توسعه محصول و حل مسائل واقعی کسب‌وکار.</p></article>
+  </section>
 
-    <section id="skills" class="glass block reveal">
-      <h3><i class="mdi mdi-tune-variant"></i> مهارت‌های کلیدی</h3>
-      <div class="skills">
-        <div class="skill"><label>PHP و توسعه Backend</label><div><i style="--w:90%"></i></div><span>۹۰٪</span></div>
-        <div class="skill"><label>مدیریت سرور لینوکسی</label><div><i style="--w:85%"></i></div><span>۸۵٪</span></div>
-        <div class="skill"><label>خودکارسازی و اسکریپت‌نویسی</label><div><i style="--w:85%"></i></div><span>۸۵٪</span></div>
-        <div class="skill"><label>HTML / CSS / JavaScript</label><div><i style="--w:75%"></i></div><span>۷۵٪</span></div>
-      </div>
-    </section>
+  <section class="title reveal"><h3>مهارت‌های کلیدی <i class="mdi mdi-code-braces"></i></h3></section>
+  <section class="skill-wrap reveal">
+    <div class="glass bars">
+      <div class="row"><span>PHP و توسعه Backend</span><b>۹۰٪</b><i style="--w:90%"></i></div>
+      <div class="row"><span>مدیریت سرور لینوکسی</span><b>۸۵٪</b><i style="--w:85%"></i></div>
+      <div class="row"><span>خودکارسازی و اسکریپت‌نویسی</span><b>۸۵٪</b><i style="--w:85%"></i></div>
+      <div class="row"><span>HTML / CSS / JavaScript</span><b>۷۵٪</b><i style="--w:75%"></i></div>
+      <div class="row"><span>Git و دیتابیس</span><b>۷۰٪</b><i style="--w:70%"></i></div>
+      <div class="row"><span>کار با ابزارهای هوش مصنوعی</span><b>۹۵٪</b><i style="--w:95%"></i></div>
+    </div>
+    <div class="glass cube-box"><div class="cube c1"></div><div class="cube c2"></div><div class="cube c3"></div></div>
+  </section>
 
-    <section id="projects" class="projects reveal">
-      <h3><i class="mdi mdi-briefcase-variant-outline"></i> پروژه‌های شاخص</h3>
-      <div class="project-grid">
-        <article class="glass project"><h4>ZarinPay.me</h4><p>سیستم کارت‌به‌کارت با تایید خودکار پرداخت و مدیریت یکپارچه.</p><a href="https://zarinpay.me" target="_blank" rel="noopener">مشاهده</a></article>
-        <article class="glass project"><h4>UploaderFileBot</h4><p>ربات دانلود چندپلتفرمی برای شبکه‌های اجتماعی و سرویس‌های ویدیویی.</p><a href="https://t.me/UploaderFileBot" target="_blank" rel="noopener">مشاهده</a></article>
-        <article class="glass project"><h4>Yaraghyar.ir</h4><p>توسعه فنی پروژه فروش و ارسال با تمرکز روی پایداری و تجربه کاربر.</p><a href="https://yaraghyar.ir" target="_blank" rel="noopener">مشاهده</a></article>
-      </div>
-    </section>
+  <section class="title reveal"><h3>ابزارها و تکنولوژی‌ها <i class="mdi mdi-layers"></i></h3></section>
+  <section class="glass tech reveal">
+    <span>PHP</span><span>Python</span><span>MySQL</span><span>Linux</span><span>Git</span><span>Docker</span><span>JavaScript</span><span>HTML5</span><span>CSS3</span>
+  </section>
 
-    <section id="contact" class="glass contact reveal">
-      <h3>برای همکاری آماده‌ام</h3>
-      <p>اگر دنبال توسعه‌دهنده‌ای هستید که ایده را سریع به محصول واقعی تبدیل کند، خوشحال می‌شوم همکاری کنیم.</p>
-      <a class="btn-primary" href="https://github.com/miladrajabi2002" target="_blank" rel="noopener"><i class="mdi mdi-github"></i> مشاهده GitHub</a>
-    </section>
-  </main>
-
-  <footer class="footer">© 2026 Milad Rajabi</footer>
-  <script src="script.js"></script>
+  <section id="projects" class="glass contact reveal">
+    <h3>برای همکاری آماده‌ام</h3>
+    <p>اگر به دنبال کسی هستید که پروژه شما را با کیفیت، سرعت و دقت بالا جلو ببرد، خوشحال می‌شوم همکاری کنیم.</p>
+    <a class="btn" href="https://github.com/miladrajabi2002" target="_blank" rel="noopener">تماس بگیرید</a>
+  </section>
+</main>
+<script src="script.js"></script>
 </body>
 </html>
