@@ -49,9 +49,9 @@ body{margin:0;font-family:'IRANSans',sans-serif;color:var(--fg);background:linea
 .project-link:hover{transform:translateY(-2px);filter:brightness(1.06);box-shadow:0 12px 24px #1f357063}
 .project-link:active{transform:translateY(0)}
 .project-link:focus-visible{outline:none;box-shadow:0 0 0 2px #0b1020,0 0 0 4px #95ddff}
-.contact-grid{display:grid;gap:.9rem;max-width:920px;margin:0 auto}
-.contact-chip{display:flex;align-items:center;justify-content:flex-start;gap:.8rem;padding:.85rem 1rem;border-radius:14px;border:1px solid #ffffff2d;background:linear-gradient(160deg,#ffffff16,#ffffff0b);transition:transform .25s ease,border-color .25s ease,box-shadow .25s ease;color:#e8f0ff;text-decoration:none}
-.contact-chip:hover{transform:translateY(-4px);border-color:#95ddff9a;box-shadow:0 10px 26px #00000038}
+.contact-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.9rem;max-width:980px;margin:0 auto}
+.contact-chip{display:flex;align-items:center;justify-content:flex-start;gap:.8rem;padding:.9rem 1rem;border-radius:16px;border:1px solid #ffffff2d;background:linear-gradient(160deg,#ffffff1b,#ffffff0c);transition:transform .25s ease,border-color .25s ease,box-shadow .25s ease,background .25s ease;color:#e8f0ff;text-decoration:none;min-height:64px}
+.contact-chip:hover{transform:translateY(-4px);border-color:#95ddff9a;box-shadow:0 10px 26px #00000038;background:linear-gradient(160deg,#ffffff22,#ffffff11)}
 .contact-icon{width:42px;height:42px;display:grid;place-items:center;border-radius:12px;background:linear-gradient(145deg,#4aaaff,#8d6bff);box-shadow:inset 0 1px 3px #ffffff4f,0 6px 14px #224a9452;flex-shrink:0}
 .contact-icon svg{width:21px;height:21px;fill:#fff}
 .contact-text{font-size:.95rem;letter-spacing:.01em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
@@ -61,4 +61,5 @@ body{margin:0;font-family:'IRANSans',sans-serif;color:var(--fg);background:linea
 .reveal{opacity:0;transform:translateY(22px) scale(.99);transition:850ms cubic-bezier(.2,.75,.2,1)}
 .reveal.show{opacity:1;transform:none}
 .pop-in{animation:pop .65s ease both}@keyframes pop{from{opacity:0;transform:scale(.98)}to{opacity:1;transform:scale(1)}}
+@media (max-width:900px){.contact-grid{grid-template-columns:1fr}}
 @media (max-width:768px){.glass-panel{border-radius:20px}.hero-lead{line-height:1.9}.section-title{font-size:1.4rem}.text-body{text-align:right}.contact-chip{padding:.8rem .85rem}.contact-text{font-size:.86rem}}
