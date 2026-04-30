@@ -8,7 +8,7 @@ body{margin:0;font-family:'IRANSans',sans-serif;color:var(--fg);background:linea
 .glass-panel{background:linear-gradient(145deg,#ffffff1b,#ffffff08);border:1px solid var(--line);backdrop-filter:blur(14px);border-radius:24px;box-shadow:0 14px 38px #00000050}
 .overline{color:#d9e8ff;font-size:.8rem;letter-spacing:.15em;text-transform:uppercase}
 .hero-title{font-size:clamp(1.5rem,5vw,4rem);font-weight:800;margin-top:.4rem;white-space:nowrap}
-.hero-subtitle{font-size:clamp(1rem,2.4vw,1.35rem);color:#dae5ff;margin-top:.3rem}
+.hero-subtitle{font-size:clamp(.85rem,2.4vw,1.35rem);color:#dae5ff;margin-top:.3rem;white-space:nowrap}
 .hero-lead{line-height:2;color:var(--muted);max-width:850px;margin:.85rem auto 0}
 .hero-github-link{margin:.95rem auto 0;display:inline-flex;align-items:center;justify-content:center;gap:.6rem;color:#fff;text-decoration:none;padding:.55rem 1rem;border:1px solid #ffffff33;border-radius:999px;background:linear-gradient(135deg,var(--brand),var(--brand2));box-shadow:0 8px 18px #2e4fa055;transition:transform .25s ease,filter .25s ease,box-shadow .25s ease;font-weight:700}
 .hero-github-link:hover{transform:translateY(-2px);filter:brightness(1.06);box-shadow:0 12px 24px #1f357063}
@@ -61,4 +61,4 @@ body{margin:0;font-family:'IRANSans',sans-serif;color:var(--fg);background:linea
 .reveal{opacity:0;transform:translateY(22px) scale(.99);transition:850ms cubic-bezier(.2,.75,.2,1)}
 .reveal.show{opacity:1;transform:none}
 .pop-in{animation:pop .65s ease both}@keyframes pop{from{opacity:0;transform:scale(.98)}to{opacity:1;transform:scale(1)}}
-@media (max-width:768px){.glass-panel{border-radius:20px}.hero-title{font-size:clamp(1.35rem,6vw,1.9rem)}.hero-lead{line-height:1.9}.section-title{font-size:1.4rem}.text-body{text-align:right}.contact-chip{padding:.8rem .85rem}.contact-text{font-size:.86rem}}
+@media (max-width:768px){.glass-panel{border-radius:20px}.hero-title{font-size:clamp(1.35rem,6vw,1.9rem)}.hero-subtitle{font-size:clamp(.72rem,3.5vw,.98rem)}.hero-lead{line-height:1.9}.section-title{font-size:1.4rem}.text-body{text-align:right}.contact-chip{padding:.8rem .85rem}.contact-text{font-size:.86rem}}
