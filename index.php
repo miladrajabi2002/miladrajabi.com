@@ -78,6 +78,32 @@
         </article>
       </div>
     </section>
+
+    <section class="glass-panel p-6 md:p-10 reveal">
+      <h2 class="section-title section-title-min">راه‌های ارتباطی</h2>
+      <div class="contact-grid">
+        <a class="contact-chip" href="tel:+989128352271" dir="ltr" aria-label="شماره تماس میلاد رجبی">
+          <span class="contact-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" focusable="false"><path d="M6.62 10.79a15.07 15.07 0 0 0 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24a11.36 11.36 0 0 0 3.57.57c.55 0 1 .45 1 1V20a1 1 0 0 1-1 1C10.85 21 3 13.15 3 3a1 1 0 0 1 1-1h3.5c.55 0 1 .45 1 1 0 1.24.2 2.45.57 3.57.12.35.03.74-.24 1.02l-2.21 2.2Z"/></svg>
+          </span>
+          <span class="contact-text">+989128352271</span>
+        </a>
+
+        <a class="contact-chip" href="mailto:miladrajabi2002@gmail.com" dir="ltr" aria-label="ایمیل میلاد رجبی">
+          <span class="contact-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" focusable="false"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4.24-7.38 4.61a1.2 1.2 0 0 1-1.24 0L4 8.24V6l8 5 8-5v2.24Z"/></svg>
+          </span>
+          <span class="contact-text">miladrajabi2002@gmail.com</span>
+        </a>
+
+        <a class="contact-chip" href="https://github.com/miladrajabi2002/" target="_blank" rel="noopener" dir="ltr" aria-label="گیت‌هاب میلاد رجبی">
+          <span class="contact-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" focusable="false"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.1.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.48-1.11-1.48-.9-.62.07-.61.07-.61 1 .07 1.52 1.02 1.52 1.02.89 1.5 2.33 1.07 2.9.82.09-.64.35-1.07.63-1.32-2.22-.25-4.56-1.1-4.56-4.93 0-1.1.4-2 1.03-2.7-.1-.26-.45-1.28.1-2.66 0 0 .84-.27 2.75 1.03A9.6 9.6 0 0 1 12 6.8c.85 0 1.71.11 2.51.34 1.91-1.3 2.75-1.03 2.75-1.03.55 1.38.2 2.4.1 2.66.63.7 1.03 1.6 1.03 2.7 0 3.84-2.34 4.67-4.58 4.92.36.31.68.92.68 1.87v2.77c0 .27.18.59.69.49A10 10 0 0 0 12 2Z"/></svg>
+          </span>
+          <span class="contact-text">github.com/miladrajabi2002</span>
+        </a>
+      </div>
+    </section>
   </main>
 
   <script src="script.js"></script>
