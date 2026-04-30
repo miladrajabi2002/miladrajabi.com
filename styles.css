@@ -10,6 +10,8 @@ body{margin:0;font-family:'IRANSans',sans-serif;color:var(--fg);background:linea
 .hero-title{font-size:clamp(2.2rem,5vw,4rem);font-weight:800;margin-top:.4rem}
 .hero-subtitle{font-size:clamp(1rem,2.4vw,1.35rem);color:#dae5ff;margin-top:.3rem}
 .hero-lead{line-height:2;color:var(--muted);max-width:850px;margin:.85rem auto 0}
+.hero-github-link{margin:.95rem auto 0;display:inline-flex;align-items:center;gap:.65rem;color:#e8f0ff;text-decoration:none;padding:.45rem .75rem;border:1px solid #ffffff2c;border-radius:999px;background:#ffffff0d;transition:transform .25s ease,border-color .25s ease,box-shadow .25s ease}
+.hero-github-link:hover{transform:translateY(-2px);border-color:#95ddff9a;box-shadow:0 8px 20px #00000032}
 .text-body{max-width:100%;margin-inline:0}
 .feature-card{background:linear-gradient(150deg,#ffffff17,#ffffff0c);border:1px solid #ffffff2a;border-radius:18px;padding:1.1rem;box-shadow:0 8px 26px #0000003f;transition:.35s ease;position:relative;overflow:hidden}
 .feature-card:hover{transform:translateY(-4px);border-color:#8fd9ff7d}
