@@ -49,15 +49,12 @@ body{margin:0;font-family:'IRANSans',sans-serif;color:var(--fg);background:linea
 .project-link:hover{transform:translateY(-2px);filter:brightness(1.06);box-shadow:0 12px 24px #1f357063}
 .project-link:active{transform:translateY(0)}
 .project-link:focus-visible{outline:none;box-shadow:0 0 0 2px #0b1020,0 0 0 4px #95ddff}
-.contact-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem;max-width:980px;margin:0 auto}
-.contact-chip{position:relative;display:flex;align-items:center;justify-content:flex-start;gap:.9rem;padding:1rem 1.1rem;border-radius:18px;border:1px solid #ffffff30;background:linear-gradient(160deg,#ffffff17,#ffffff0a);transition:transform .25s ease,border-color .25s ease,box-shadow .25s ease,background .25s ease;color:#e8f0ff;text-decoration:none;min-height:78px;overflow:hidden}
-.contact-chip:hover{transform:translateY(-4px);border-color:#95ddff8f;box-shadow:0 12px 28px #0000003d;background:linear-gradient(160deg,#ffffff20,#ffffff12)}
-.contact-icon{width:46px;height:46px;display:grid;place-items:center;border-radius:14px;background:linear-gradient(145deg,#3f8cff,#7d5bff);box-shadow:inset 0 1px 3px #ffffff5c,0 8px 18px #1d2f5a55;flex-shrink:0}
-.contact-icon svg{width:22px;height:22px;fill:#fff}
-.contact-text{display:flex;flex-direction:column;gap:.12rem;min-width:0;text-align:right}.contact-text small{font-size:.74rem;color:#c7d5f1}.contact-text strong{font-size:.93rem;letter-spacing:.01em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#f4f7ff}
-.contact-phone .contact-icon{background:linear-gradient(145deg,#1cbc7a,#21d6a2)}
-.contact-mail .contact-icon{background:linear-gradient(145deg,#ff7c6e,#ff4ea0)}
-.contact-telegram .contact-icon{background:linear-gradient(145deg,#35a8ff,#4f7dff)}
+.contact-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.85rem;max-width:920px;margin:0 auto}
+.contact-chip{display:flex;align-items:center;justify-content:flex-start;gap:.75rem;padding:.85rem .95rem;border-radius:14px;border:1px solid #ffffff24;background:#ffffff0f;transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease;color:#e8f0ff;text-decoration:none;min-height:62px}
+.contact-chip:hover{transform:translateY(-2px);border-color:#ffffff4a;box-shadow:0 8px 20px #0000002c}
+.contact-icon{width:40px;height:40px;display:grid;place-items:center;border-radius:11px;background:#ffffff1f;border:1px solid #ffffff2a;box-shadow:inset 0 1px 2px #ffffff2e;flex-shrink:0}
+.contact-icon svg{width:20px;height:20px;fill:#f5f8ff}
+.contact-text{font-size:.92rem;letter-spacing:.01em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#f2f6ff}
 
 #preloader{position:fixed;inset:0;display:grid;place-content:center;background:#0a0e1c;z-index:40;transition:.5s}
 #preloader.hide{opacity:0;visibility:hidden}.loader{width:56px;height:56px;border-radius:999px;border:4px solid #ffffff22;border-top-color:#77ceff;animation:spin .8s linear infinite}

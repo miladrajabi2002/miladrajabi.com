@@ -88,25 +88,25 @@
     <section class="glass-panel p-6 md:p-10 reveal">
       <h2 class="section-title section-title-min">راه‌های ارتباطی</h2>
       <div class="contact-grid">
-        <a class="contact-chip contact-phone" href="tel:+989128352271" dir="ltr" aria-label="شماره تماس میلاد رجبی">
+        <a class="contact-chip" href="tel:+989128352271" dir="ltr" aria-label="شماره تماس میلاد رجبی">
           <span class="contact-icon" aria-hidden="true">
             <svg viewBox="0 0 24 24" focusable="false"><path d="M6.62 10.79a15.07 15.07 0 0 0 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24a11.36 11.36 0 0 0 3.57.57c.55 0 1 .45 1 1V20a1 1 0 0 1-1 1C10.85 21 3 13.15 3 3a1 1 0 0 1 1-1h3.5c.55 0 1 .45 1 1 0 1.24.2 2.45.57 3.57.12.35.03.74-.24 1.02l-2.21 2.2Z"/></svg>
           </span>
-          <span class="contact-text"><small>تماس مستقیم</small><strong>+989128352271</strong></span>
+          <span class="contact-text">+989128352271</span>
         </a>
 
-        <a class="contact-chip contact-mail" href="mailto:miladrajabi2002@gmail.com" dir="ltr" aria-label="ایمیل میلاد رجبی">
+        <a class="contact-chip" href="mailto:miladrajabi2002@gmail.com" dir="ltr" aria-label="ایمیل میلاد رجبی">
           <span class="contact-icon" aria-hidden="true">
             <svg viewBox="0 0 24 24" focusable="false"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4.24-7.38 4.61a1.2 1.2 0 0 1-1.24 0L4 8.24V6l8 5 8-5v2.24Z"/></svg>
           </span>
-          <span class="contact-text"><small>ایمیل</small><strong>miladrajabi2002@gmail.com</strong></span>
+          <span class="contact-text">miladrajabi2002@gmail.com</span>
         </a>
 
-        <a class="contact-chip contact-telegram" href="https://t.me/miladrajabi2002" target="_blank" rel="noopener" dir="ltr" aria-label="تلگرام میلاد رجبی">
+        <a class="contact-chip" href="https://t.me/miladrajabi2002" target="_blank" rel="noopener" dir="ltr" aria-label="تلگرام میلاد رجبی">
           <span class="contact-icon" aria-hidden="true">
             <svg viewBox="0 0 24 24" focusable="false"><path d="M21.94 4.66c.22-.86-.64-1.58-1.39-1.2L2.64 11.05c-.82.35-.78 1.53.07 1.82l4.58 1.58 1.58 4.58c.29.85 1.47.9 1.82.07L20.74 5.45c.16-.38.21-.53.2-.79ZM9.05 13.53l8.64-7.39-6.95 9.28a1 1 0 0 0-.17.39l-.53 2.14-.99-2.87Z"/></svg>
           </span>
-          <span class="contact-text"><small>تلگرام</small><strong>@miladrajabi2002</strong></span>
+          <span class="contact-text">@miladrajabi2002</span>
         </a>
 
       </div>
