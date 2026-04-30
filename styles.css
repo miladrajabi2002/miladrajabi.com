@@ -12,7 +12,6 @@ body{margin:0;font-family:'IRANSans',sans-serif;color:var(--fg);background:linea
 .hero-lead{line-height:2;color:var(--muted);max-width:850px;margin:.85rem auto 0}
 .text-body{max-width:100%;margin-inline:0}
 .feature-card{background:linear-gradient(150deg,#ffffff17,#ffffff0c);border:1px solid #ffffff2a;border-radius:18px;padding:1.1rem;box-shadow:0 8px 26px #0000003f;transition:.35s ease;position:relative;overflow:hidden}
-.feature-card::after{content:'';position:absolute;inset:auto -20px -34px auto;width:95px;height:95px;border-radius:50%;background:radial-gradient(circle,#9acfff66,transparent 66%)}
 .feature-card:hover{transform:translateY(-4px);border-color:#8fd9ff7d}
 .feature-card h3{font-size:2rem;font-weight:800;background:linear-gradient(135deg,var(--brand),var(--brand2));-webkit-background-clip:text;background-clip:text;color:transparent}
 .feature-card p{margin-top:.3rem;color:#d5dff6}
@@ -20,7 +19,7 @@ body{margin:0;font-family:'IRANSans',sans-serif;color:var(--fg);background:linea
 .skills-grid{display:grid;gap:.7rem;max-width:880px;margin:0 auto;text-align:right}
 .skill-row{padding:.72rem .8rem;border:1px solid #ffffff26;background:#ffffff0f;border-radius:12px}
 .skill-row label{display:block;margin-bottom:.4rem;color:#e3ebff}
-.skill-row i{display:block;height:9px;background:#223152;border-radius:99px;position:relative;overflow:hidden}
+.skill-row i{display:block;height:9px;background:linear-gradient(90deg,#28385b,#263352);border-radius:99px;position:relative;overflow:hidden;border:1px solid #ffffff18}
 .skill-row i::before{content:'';position:absolute;inset:0;width:0;background:linear-gradient(90deg,var(--brand),var(--brand2));transition:width 1.2s cubic-bezier(.2,.7,.2,1)}
 .skill-row.animate i::before{width:calc(var(--w) * 1%)}
 .project-card{background:#ffffff0f;border:1px solid #ffffff25;border-radius:16px;padding:1rem;transition:.25s ease}
@@ -33,7 +32,6 @@ body{margin:0;font-family:'IRANSans',sans-serif;color:var(--fg);background:linea
 .info-card h4{font-weight:700;color:#e7eeff}
 .info-card p{margin-top:.35rem;color:#cfdaf2;line-height:1.9}
 .features-grid .info-card{position:relative;overflow:hidden}
-.features-grid .info-card::after{content:'';position:absolute;inset:auto -40px -38px auto;width:110px;height:110px;border-radius:50%;background:radial-gradient(circle,#8ed8ff36,transparent 66%)}
 .status-dot{animation:pulseDot 1.3s ease-in-out infinite}
 @keyframes pulseDot{0%,100%{transform:scale(1);opacity:.9}50%{transform:scale(1.25);opacity:.45}}
 

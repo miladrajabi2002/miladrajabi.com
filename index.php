@@ -29,6 +29,12 @@
 
     <section class="grid md:grid-cols-2 gap-4 reveal">
       <article class="glass-panel p-6 md:p-10 text-right">
+        <h2 class="section-title text-center">خلاصه مدیریتی</h2>
+        <p class="hero-lead text-body">من معمولاً با ساختار پروژه‌ای همکاری می‌کنم و از تحلیل تا توسعه، استقرار و پشتیبانی همراه پروژه هستم. در کنار برنامه‌نویسی، هم‌زمان مدیریت چند سرور فعال را انجام می‌دهم و با کمک AI سرعت تحویل را بالا نگه می‌دارم.</p>
+        <p class="hero-lead text-body">مهم‌ترین مزیت من یادگیری سریع و حل مسئله براساس نیاز واقعی کسب‌وکار است؛ یعنی اگر بخشی را ندانم، سریع یاد می‌گیرم و به خروجی قابل اتکا تبدیل می‌کنم.</p>
+      </article>
+
+      <article class="glass-panel p-6 md:p-10 text-right">
         <h2 class="section-title">توانمندی‌ها</h2>
         <div class="skills-grid">
           <div class="skill-row"><label>PHP / Backend</label><i data-width="92"></i></div>
@@ -38,12 +44,6 @@
           <div class="skill-row"><label>Git & Database</label><i data-width="72"></i></div>
           <div class="skill-row"><label>AI Tools Integration</label><i data-width="96"></i></div>
         </div>
-      </article>
-
-      <article class="glass-panel p-6 md:p-10 text-left">
-        <h2 class="section-title text-center">خلاصه مدیریتی</h2>
-        <p class="hero-lead text-body">من معمولاً با ساختار پروژه‌ای همکاری می‌کنم و از تحلیل تا توسعه، استقرار و پشتیبانی همراه پروژه هستم. در کنار برنامه‌نویسی، هم‌زمان مدیریت چند سرور فعال را انجام می‌دهم و با کمک AI سرعت تحویل را بالا نگه می‌دارم.</p>
-        <p class="hero-lead text-body">مهم‌ترین مزیت من یادگیری سریع و حل مسئله براساس نیاز واقعی کسب‌وکار است؛ یعنی اگر بخشی را ندانم، سریع یاد می‌گیرم و به خروجی قابل اتکا تبدیل می‌کنم.</p>
       </article>
     </section>
 
