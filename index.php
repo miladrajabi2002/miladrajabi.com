@@ -80,7 +80,7 @@
         <article class="project-card project-card-pro" data-status="active">
           <h3>Yaraghyar.ir <span class="status-dot" aria-label="active"></span></h3>
           <p>پروژه در حال توسعه فروش/ارسال با PHP, HTML, CSS, JS و رویکرد AI-assisted برای افزایش سرعت توسعه.</p>
-          <div class="links justify-center"><a class="project-link" href="https://yaraghyar.ir" target="_blank" rel="noopener">مشاهده پروژه</a></div>
+          <div class="links justify-center"><a class="project-link" href="https://yaraghyar.ir" target="_blank" rel="noopener">وب‌سایت</a></div>
         </article>
       </div>
     </section>
