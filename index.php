@@ -102,6 +102,13 @@
           <span class="contact-text">miladrajabi2002@gmail.com</span>
         </a>
 
+        <a class="contact-chip" href="https://t.me/miladrajabi2002" target="_blank" rel="noopener" dir="ltr" aria-label="تلگرام میلاد رجبی">
+          <span class="contact-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" focusable="false"><path d="M21.94 4.66c.22-.86-.64-1.58-1.39-1.2L2.64 11.05c-.82.35-.78 1.53.07 1.82l4.58 1.58 1.58 4.58c.29.85 1.47.9 1.82.07L20.74 5.45c.16-.38.21-.53.2-.79ZM9.05 13.53l8.64-7.39-6.95 9.28a1 1 0 0 0-.17.39l-.53 2.14-.99-2.87Z"/></svg>
+          </span>
+          <span class="contact-text">@miladrajabi2002</span>
+        </a>
+
       </div>
     </section>
   </main>
