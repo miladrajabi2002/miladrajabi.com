@@ -18,11 +18,11 @@
       <h1 class="hero-title">Milad Rajabi | میلاد رجبی</h1>
       <p class="hero-subtitle">PHP Developer · Linux Server Admin · AI-Driven Builder</p>
       <p class="hero-lead">۸ سال تجربه برنامه‌نویسی و اجرای پروژه واقعی دارم. تخصص اصلی من PHP است و در کنار آن مدیریت سرور لینوکس، اتوماسیون، و تحویل سریع پروژه با کمک AI را انجام می‌دهم.</p>
-      <a class="hero-github-link" href="https://github.com/miladrajabi2002/" target="_blank" rel="noopener" dir="ltr" aria-label="گیت‌هاب میلاد رجبی">
+      <a class="hero-github-link" href="https://github.com/miladrajabi2002/" target="_blank" rel="noopener" aria-label="گیت‌هاب میلاد رجبی">
         <span class="contact-icon" aria-hidden="true">
           <svg viewBox="0 0 24 24" focusable="false"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.1.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.48-1.11-1.48-.9-.62.07-.61.07-.61 1 .07 1.52 1.02 1.52 1.02.89 1.5 2.33 1.07 2.9.82.09-.64.35-1.07.63-1.32-2.22-.25-4.56-1.1-4.56-4.93 0-1.1.4-2 1.03-2.7-.1-.26-.45-1.28.1-2.66 0 0 .84-.27 2.75 1.03A9.6 9.6 0 0 1 12 6.8c.85 0 1.71.11 2.51.34 1.91-1.3 2.75-1.03 2.75-1.03.55 1.38.2 2.4.1 2.66.63.7 1.03 1.6 1.03 2.7 0 3.84-2.34 4.67-4.58 4.92.36.31.68.92.68 1.87v2.77c0 .27.18.59.69.49A10 10 0 0 0 12 2Z"/></svg>
         </span>
-        <span class="contact-text">GitHub / miladrajabi2002</span>
+        <span class="contact-text">گیت هاب</span>
       </a>
     </section>
 
