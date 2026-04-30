@@ -70,17 +70,17 @@
         <article class="project-card project-card-pro" data-status="active">
           <h3>ZarinPay.me <span class="status-dot" aria-label="active"></span></h3>
           <p>درگاه کارت‌به‌کارت با تایید خودکار برای کسب‌وکارهای فاقد اینماد / کد مالیاتی، به‌همراه مدیریت از طریق ربات تلگرام.</p>
-          <div class="links justify-center"><a href="https://zarinpay.me" target="_blank" rel="noopener">وب‌سایت</a><a href="https://github.com/miladrajabi2002/ZarinPay.me" target="_blank" rel="noopener">مستندات</a></div>
+          <div class="links justify-center"><a class="project-link" href="https://zarinpay.me" target="_blank" rel="noopener">وب‌سایت</a><a class="project-link" href="https://github.com/miladrajabi2002/ZarinPay.me" target="_blank" rel="noopener">مستندات</a></div>
         </article>
         <article class="project-card project-card-pro" data-status="inactive">
           <h3>UploaderFileBot <span class="status-dot" aria-label="inactive"></span></h3>
           <p>ربات چندپلتفرمی دانلود محتوا از شبکه‌های مختلف. پروژه فعلاً به‌دلیل هزینه‌های زیرساخت متوقف شده است.</p>
-          <div class="links justify-center"><a href="https://t.me/UploaderFileBot" target="_blank" rel="noopener">ربات تلگرام</a><a href="https://t.me/UploaderFilechannel" target="_blank" rel="noopener">کانال</a></div>
+          <div class="links justify-center"><a class="project-link" href="https://t.me/UploaderFileBot" target="_blank" rel="noopener">ربات تلگرام</a><a class="project-link" href="https://t.me/UploaderFilechannel" target="_blank" rel="noopener">کانال</a></div>
         </article>
         <article class="project-card project-card-pro" data-status="active">
           <h3>Yaraghyar.ir <span class="status-dot" aria-label="active"></span></h3>
           <p>پروژه در حال توسعه فروش/ارسال با PHP, HTML, CSS, JS و رویکرد AI-assisted برای افزایش سرعت توسعه.</p>
-          <div class="links justify-center"><a href="https://yaraghyar.ir" target="_blank" rel="noopener">مشاهده پروژه</a></div>
+          <div class="links justify-center"><a class="project-link" href="https://yaraghyar.ir" target="_blank" rel="noopener">مشاهده پروژه</a></div>
         </article>
       </div>
     </section>
