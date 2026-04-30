@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Milad Rajabi | میلاد رجبی</title>
+  <title>میلاد رجبی | Milad Rajabi</title>
   <meta name="description" content="رزومه اجرایی میلاد رجبی برای همکاری در سطح ارشد: توسعه‌دهنده PHP، مدیر سرور لینوکس، متخصص اتوماسیون و AI-driven delivery." />
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="styles.css" />
@@ -15,7 +15,7 @@
   <main class="resume-shell mx-auto w-[92%] max-w-5xl py-8 md:py-14 space-y-5 md:space-y-8 text-center">
     <section class="glass-panel p-6 md:p-11 reveal pop-in">
       <p class="overline">Senior Candidate Profile</p>
-      <h1 class="hero-title">Milad Rajabi | میلاد رجبی</h1>
+      <h1 class="hero-title">میلاد رجبی | Milad Rajabi</h1>
       <p class="hero-subtitle">PHP Developer · Linux Server Admin · AI-Driven Builder</p>
       <p class="hero-lead">۸ سال تجربه برنامه‌نویسی و اجرای پروژه واقعی دارم. تخصص اصلی من PHP است و در کنار آن مدیریت سرور لینوکس، اتوماسیون، و تحویل سریع پروژه با کمک AI را انجام می‌دهم.</p>
       <a class="hero-github-link" href="https://github.com/miladrajabi2002/" target="_blank" rel="noopener" aria-label="گیت‌هاب میلاد رجبی">
