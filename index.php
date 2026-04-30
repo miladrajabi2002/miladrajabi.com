@@ -49,17 +49,17 @@
 
 
     <section class="glass-panel p-6 md:p-10 reveal">
-      <h2 class="section-title">ویژگی‌های کلیدی</h2>
+      <h2 class="section-title title-fancy"><span>ویژگی‌های کلیدی</span></h2>
       <div class="grid md:grid-cols-2 gap-3 text-right features-grid">
-        <article class="info-card"><h4>تفکر پروژه‌محور و مسئولیت‌پذیر</h4><p>از تحلیل نیاز تا استقرار و نگهداری، تمرکز روی خروجی واقعی و قابل اتکا برای کسب‌وکار.</p></article>
-        <article class="info-card"><h4>ترکیب توسعه + زیرساخت</h4><p>هم‌زمان توان توسعه نرم‌افزار و مدیریت عملیات سرور برای تحویل پایدارتر.</p></article>
-        <article class="info-card"><h4>تحویل سریع با AI</h4><p>استفاده هدفمند از AI برای افزایش سرعت توسعه، رفع باگ و توسعه قابلیت‌های جدید.</p></article>
-        <article class="info-card"><h4>یادگیری سریع در مسیر پروژه</h4><p>در مواجهه با نیاز جدید، سریع یاد می‌گیرم و به راهکار اجرایی تبدیل می‌کنم.</p></article>
+        <article class="info-card"><small>Execution</small><h4>تفکر پروژه‌محور و مسئولیت‌پذیر</h4><p>از تحلیل نیاز تا استقرار و نگهداری، تمرکز روی خروجی واقعی و قابل اتکا برای کسب‌وکار.</p></article>
+        <article class="info-card"><small>Full-Stack Ops</small><h4>ترکیب توسعه + زیرساخت</h4><p>هم‌زمان توان توسعه نرم‌افزار و مدیریت عملیات سرور برای تحویل پایدارتر.</p></article>
+        <article class="info-card"><small>AI Acceleration</small><h4>تحویل سریع با AI</h4><p>استفاده هدفمند از AI برای افزایش سرعت توسعه، رفع باگ و توسعه قابلیت‌های جدید.</p></article>
+        <article class="info-card"><small>Fast Learning</small><h4>یادگیری سریع در مسیر پروژه</h4><p>در مواجهه با نیاز جدید، سریع یاد می‌گیرم و به راهکار اجرایی تبدیل می‌کنم.</p></article>
       </div>
     </section>
 
     <section class="glass-panel p-6 md:p-10 reveal">
-      <h2 class="section-title">نمونه پروژه‌ها</h2>
+      <h2 class="section-title title-fancy"><span>نمونه پروژه‌ها</span></h2>
       <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-4 text-center">
         <article class="project-card project-card-pro" data-status="active">
           <h3>ZarinPay.me <span class="status-dot" aria-label="active"></span></h3>

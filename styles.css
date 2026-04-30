@@ -16,6 +16,11 @@ body{margin:0;font-family:'IRANSans',sans-serif;color:var(--fg);background:linea
 .feature-card h3{font-size:2rem;font-weight:800;background:linear-gradient(135deg,var(--brand),var(--brand2));-webkit-background-clip:text;background-clip:text;color:transparent}
 .feature-card p{margin-top:.3rem;color:#d5dff6}
 .section-title{font-size:1.6rem;font-weight:800;margin-bottom:.8rem}
+.title-fancy{display:flex;justify-content:center;margin-bottom:1rem}
+.title-fancy span{display:inline-flex;align-items:center;gap:.6rem;padding:.36rem .9rem;border:1px solid #ffffff2f;border-radius:999px;background:linear-gradient(130deg,#ffffff1a,#ffffff0a)}
+.title-fancy span::before,.title-fancy span::after{content:'';width:7px;height:7px;border-radius:50%;background:linear-gradient(135deg,var(--brand),var(--brand2));box-shadow:0 0 12px #86d6ff8a}
+.info-card small{display:inline-block;font-size:.7rem;letter-spacing:.06em;text-transform:uppercase;color:#9adfff;background:#0f2b46;border:1px solid #28537a;padding:.14rem .42rem;border-radius:999px;margin-bottom:.45rem}
+
 .skills-grid{display:grid;gap:.7rem;max-width:880px;margin:0 auto;text-align:right}
 .skill-row{padding:.72rem .8rem;border:1px solid #ffffff26;background:#ffffff0f;border-radius:12px}
 .skill-row label{display:block;margin-bottom:.4rem;color:#e3ebff}
