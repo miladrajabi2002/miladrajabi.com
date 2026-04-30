@@ -27,6 +27,16 @@ body{margin:0;font-family:'IRANSans',sans-serif;color:var(--fg);background:linea
 .project-card:hover{transform:translateY(-3px);border-color:#8fd9ff85}
 .project-card h3{font-size:1.18rem;font-weight:800;display:flex;align-items:center;justify-content:center;gap:.5rem}
 .project-card p{color:#d0dbf3;line-height:1.95;margin-top:.35rem}
+
+.info-card{background:#ffffff10;border:1px solid #ffffff2b;border-radius:14px;padding:.9rem;transition:.25s ease}
+.info-card:hover{transform:translateY(-3px);border-color:#8fd9ff90;background:#ffffff15}
+.info-card h4{font-weight:700;color:#e7eeff}
+.info-card p{margin-top:.35rem;color:#cfdaf2;line-height:1.9}
+.features-grid .info-card{position:relative;overflow:hidden}
+.features-grid .info-card::after{content:'';position:absolute;inset:auto -40px -38px auto;width:110px;height:110px;border-radius:50%;background:radial-gradient(circle,#8ed8ff36,transparent 66%)}
+.status-dot{animation:pulseDot 1.3s ease-in-out infinite}
+@keyframes pulseDot{0%,100%{transform:scale(1);opacity:.9}50%{transform:scale(1.25);opacity:.45}}
+
 .status-dot{display:inline-block;width:11px;height:11px;border-radius:50%;box-shadow:0 0 12px currentColor}
 .project-card[data-status='active'] .status-dot{color:#17d657;background:#17d657}
 .project-card[data-status='inactive'] .status-dot{color:#ff5252;background:#ff5252}

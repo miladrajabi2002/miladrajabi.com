@@ -41,10 +41,21 @@
       </article>
 
       <article class="glass-panel p-6 md:p-10 text-left">
-        <h2 class="section-title">خلاصه مدیریتی</h2>
+        <h2 class="section-title text-center">خلاصه مدیریتی</h2>
         <p class="hero-lead text-body">من معمولاً با ساختار پروژه‌ای همکاری می‌کنم و از تحلیل تا توسعه، استقرار و پشتیبانی همراه پروژه هستم. در کنار برنامه‌نویسی، هم‌زمان مدیریت چند سرور فعال را انجام می‌دهم و با کمک AI سرعت تحویل را بالا نگه می‌دارم.</p>
         <p class="hero-lead text-body">مهم‌ترین مزیت من یادگیری سریع و حل مسئله براساس نیاز واقعی کسب‌وکار است؛ یعنی اگر بخشی را ندانم، سریع یاد می‌گیرم و به خروجی قابل اتکا تبدیل می‌کنم.</p>
       </article>
+    </section>
+
+
+    <section class="glass-panel p-6 md:p-10 reveal">
+      <h2 class="section-title">ویژگی‌های کلیدی</h2>
+      <div class="grid md:grid-cols-2 gap-3 text-right features-grid">
+        <article class="info-card"><h4>تفکر پروژه‌محور و مسئولیت‌پذیر</h4><p>از تحلیل نیاز تا استقرار و نگهداری، تمرکز روی خروجی واقعی و قابل اتکا برای کسب‌وکار.</p></article>
+        <article class="info-card"><h4>ترکیب توسعه + زیرساخت</h4><p>هم‌زمان توان توسعه نرم‌افزار و مدیریت عملیات سرور برای تحویل پایدارتر.</p></article>
+        <article class="info-card"><h4>تحویل سریع با AI</h4><p>استفاده هدفمند از AI برای افزایش سرعت توسعه، رفع باگ و توسعه قابلیت‌های جدید.</p></article>
+        <article class="info-card"><h4>یادگیری سریع در مسیر پروژه</h4><p>در مواجهه با نیاز جدید، سریع یاد می‌گیرم و به راهکار اجرایی تبدیل می‌کنم.</p></article>
+      </div>
     </section>
 
     <section class="glass-panel p-6 md:p-10 reveal">
